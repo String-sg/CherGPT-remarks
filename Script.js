@@ -7,16 +7,14 @@ var API_KEY = 'YOUR_API_KEY';
  * @param {string} prompt The prompt to send to the GPT-3 API.
  * @param {number} [max_tokens = 64] The maximum number of tokens to generate in the response.
  * @return {string} The response from the GPT-3 API.
- * 
- * Full credit to ChatGPT that created this script on my behalf ;-)
  *  
  */
 function GPT(prompt,max_tokens = 64) {
-  // Set up the API URL and payload
+  // Set up the API URL and payload. Updated to use GPT3.5 or ChatGPT instead of da vinci for cost reasons 
   var API_URL = 'https://api.openai.com/v1/completions';
   var payload = {
     'prompt': prompt,
-    'model': 'text-davinci-003',
+    'model': 'gpt-3.5-turbo',
     'max_tokens': max_tokens,
     'top_p': 1,
     'frequency_penalty': 0,
