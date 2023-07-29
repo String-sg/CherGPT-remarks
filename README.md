@@ -1,6 +1,12 @@
+# GPT-3.5 App Script for Google Sheets
+Updated 29 July by Kahhow
 
-# GPT-3 app script for Google Sheets
-This app script allows you to access the GPT-3 API from within a Google Sheet, using the formula `=GPT(prompt, max_tokens)`. The `prompt` parameter is the text that you want to send to the GPT-3 API, and the `max_tokens` parameter (optional, default value: 64) is the maximum number of tokens to generate in the response.
+Please use the new file Script.js which contains the code for GPT-3.5.
+The older version (Script(GPT3).js) below uses GPT-3 or Da Vinci. 
+
+---
+# GPT-3 App Script for Google Sheets
+This app script (Script(GPT3).js) allows you to access the GPT-3 API from within a Google Sheet, using the formula `=GPT(prompt, max_tokens)`. The `prompt` parameter is the text that you want to send to the GPT-3 API, and the `max_tokens` parameter (optional, default value: 64) is the maximum number of tokens to generate in the response.
 
 ## Getting started
 1. Make sure you have a Google account and access to Google Sheets.
