@@ -14,7 +14,7 @@ function GPT(prompt,max_tokens = 64) {
   var API_URL = 'https://api.openai.com/v1/completions';
   var payload = {
     'prompt': prompt,
-    'model': 'gpt-3.5-turbo',
+    'model': 'gpt-4o-mini',
     'max_tokens': max_tokens,
     'top_p': 1,
     'frequency_penalty': 0,
