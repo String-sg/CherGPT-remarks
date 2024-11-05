@@ -1,7 +1,7 @@
-# GPT-3.5 App Script for Google Sheets
-Updated 29 July by Kahhow
+# GPT-4o-mini App Script for Google Sheets
+Updated 5 Nov by Kahhow
 
-Please use the new file Script.js which contains the code for GPT-3.5.
+Please use the new file Script.js which contains the code for GPT-4o-mini.
 The older version (Script(GPT3).js) below uses GPT-3 or Da Vinci. 
 
 ---
